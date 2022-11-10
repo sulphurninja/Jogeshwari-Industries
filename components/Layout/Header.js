@@ -19,8 +19,7 @@ const Header = () => {
         className={
           "fixed top-0 w-full  z-30 bg-[#171616] transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-4")
-        }
-      >
+        }>
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className=" col-start-1 col-end-2 flex items-center">
             <img className="h-12  w-auto" src='/assets/logo.jpeg' />
