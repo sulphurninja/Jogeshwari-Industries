@@ -14,7 +14,7 @@ const Pricing = () => {
   return (
     <div
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
-      id="pricing"
+      id="vision"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
@@ -165,14 +165,14 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto" id="team">
               Management- Jogeshwari Industries{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-              We at Jogeshwari Industries are trying to reach our ingot manufacturing unit within a quarter or quarters.
+            The company is owned by <strong>Seema Mhaske</strong>, the executive director, taken care by <strong>Vishwajeet Aute</strong> as a director.  We at Jogeshwari Industries are trying to reach our ingot manufacturing unit within a quarter or quarters.
 Post starting of alloys unit we are researching for PDC industries and planning on how this Industries can takeover within Two or three years
             </motion.p>
           </ScrollAnimationWrapper>

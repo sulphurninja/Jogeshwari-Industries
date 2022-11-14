@@ -5,6 +5,7 @@ import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
 
 
+
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
@@ -24,6 +25,7 @@ const Header = () => {
           <div className=" col-start-1 col-end-2 flex items-center">
             <img className="h-12  w-auto" src='/assets/logo.jpeg' />
           </div>
+          
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
               activeClass="active"
@@ -99,7 +101,7 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            
+          
             <ButtonOutline>Contact Us</ButtonOutline>
           </div>
         </nav>
@@ -175,16 +177,16 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="pricing"
+              to="vision"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("pricing");
+                setActiveLink("vision");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "pricing"
+                (activeLink === "vision"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }

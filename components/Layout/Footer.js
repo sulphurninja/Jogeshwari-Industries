@@ -28,32 +28,28 @@ const Footer = () => {
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-white-300 mb-4 font-medium text-lg">Services</p>
           <ul className="text-black-500 ">
+          <a href='#feature'>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Features{" "}
             </li>
+            </a>
+            <a href="#vision">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Vision{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Locations{" "}
-            </li>
+            </a>
+           <a href="#team">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Team{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Milestones{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Blog{" "}
-            </li>
+            </a>
+           
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
           <p className="text-white-300 mb-4 font-medium text-lg">Engage</p>
           <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-               Jogeshwari Industries{" "}
-            </li>
+           
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               FAQ{" "}
             </li>
@@ -63,17 +59,6 @@ const Footer = () => {
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Terms of Service{" "}
-            </li>
-          </ul>
-        </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-white-300 mb-4 font-medium text-lg">Work</p>
-          <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Affiliate{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Become Partner{" "}
             </li>
           </ul>
         </div>
