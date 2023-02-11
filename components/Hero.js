@@ -8,7 +8,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Aluminum Manufacturer",
+      name: "Aluminum Scrap",
       number: "Metal Business",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
@@ -90,7 +90,6 @@ const Hero = ({
         ></div>
       </div>
     </div>
-  );
-};
+  )}
 
-export default Hero;
+  export default Hero
