@@ -79,7 +79,6 @@ const ProductRange = () => {
                 </p>
               </motion.div>
             </ScrollAnimationWrapper>
-
           </div>
         </div>
         <div className="flex flex-col w-full my-16">

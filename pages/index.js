@@ -5,7 +5,6 @@ import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import ProductRange from "../components/ProductRange";
 
-
 export default function Home() {
   return (
     <>

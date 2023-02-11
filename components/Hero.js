@@ -9,17 +9,17 @@ const Hero = ({
     {
       name: "Aluminum Scrap",
       number: "Metal Business",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
+      icon: "/assets/Icon/heroicons_sm-user.svg"
     },
     {
       name: "Current Dealings",
       number: "Aluminium Scrap",
-      icon: "/assets/Icon/bx_bxs-server.svg",
+      icon: "/assets/Icon/bx_bxs-server.svg"
     },
     {
       name: "Location",
       number: "Chakan Ph 2 MIDC",
-      icon: "/assets/Icon/gridicons_location.svg",
+      icon: "/assets/Icon/gridicons_location.svg"
     },
 
   ],
