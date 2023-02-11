@@ -24,27 +24,26 @@ const Footer = () => {
           </div>
           <p className="text-white-300">©{new Date().getFullYear()} - Jogeshwari Industries</p>
           <p className="text-white-300">Address: Chakan Ph 2, MIDC, Pune</p>
-          <p className = "text-white-300">Mail: jogeshwariindustries77@gmail.com</p>
+          <p className="text-white-300">Mail: jogeshwariindustries77@gmail.com</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-white-300 -300 mb-4 font-medium text-lg">Services</p>
           <ul className="text-black-500 flex gap-4 ">
-          <a href='#feature'>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Features{" "}
-            </li>
+            <a href='#feature'>
+              <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                Features{" "}
+              </li>
             </a>
             <a href="#vision">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Vision{" "}
-            </li>
+              <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                Vision{" "}
+              </li>
             </a>
-           <a href="#team">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Team{" "}
-            </li>
+            <a href="#team">
+              <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                Team{" "}
+              </li>
             </a>
-           
           </ul>
         </div>
       </div>

@@ -13,16 +13,9 @@ export default function Home() {
       <SeoHead title='Jogeshwari Industries' />
       <Layout>
         <Hero />
-
-        
         <Feature />
-      
         <Pricing />
-        <ProductRange/>
-
-       
-    
-
+        <ProductRange />
       </Layout>
     </>
   );
