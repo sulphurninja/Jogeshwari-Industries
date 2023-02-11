@@ -6,8 +6,7 @@ import { useRouter } from "next/router";
 const defaultMeta = {
   title: 'Jogeshwari Industries',
   siteName: 'Jogeshwari Industries',
-  description:
-    '',
+  description: '',
   // change base url of your web (without '/' at the end)
   url: '',
   type: 'website',

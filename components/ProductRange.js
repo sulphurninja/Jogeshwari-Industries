@@ -44,7 +44,6 @@ const ProductRange = () => {
                   }
                 }}
               >
-
                 <Image
                   src="/assets/ingot.png"
                   width={250}
@@ -52,12 +51,9 @@ const ProductRange = () => {
                   alt="Ingots"
                   className="object-fill"
                 />
-
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
                   Aluminium Alloy ADC 12 Ingots
                 </p>
-
-
               </motion.div>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper className="flex justify-center">
@@ -83,8 +79,6 @@ const ProductRange = () => {
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
                   All Grade Aluminium Scrap{" "}
                 </p>
-
-
               </motion.div>
             </ScrollAnimationWrapper>
 
